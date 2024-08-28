@@ -1,8 +1,8 @@
 import React from 'react';
 import { Tweet } from './Tweet';
 
-export function TweetList({ tweets, onDelete, onLike }) {
-  if (!tweets || tweets.length === 0) {
+export const TweetList = React.memo(({ tweets, onDelete, onLike }) => {
+  if (!tweets.length) {
     return <p>No tweets</p>;
   }
 
@@ -21,4 +21,4 @@ export function TweetList({ tweets, onDelete, onLike }) {
       ))}
     </div>
   );
-}
+});

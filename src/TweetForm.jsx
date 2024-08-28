@@ -1,11 +1,15 @@
-import React, { forwardRef } from 'react';
+import React, { useState } from 'react';
 
-export const TweetForm = forwardRef(({ onSubmit }, ref) => {
-  const [name, setName] = React.useState('');
-  const [content, setContent] = React.useState('');
+export function TweetForm({ onSubmit }) {
+  const [name, setName] = useState('');
+  const [content, setContent] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (!name || !content) {
+      alert('Veuillez remplir tous les champs.');
+      return;
+    }
     onSubmit(name, content);
     setName('');
     setContent('');
@@ -31,4 +35,4 @@ export const TweetForm = forwardRef(({ onSubmit }, ref) => {
       <button type="submit">Submit</button>
     </form>
   );
-});
+}
