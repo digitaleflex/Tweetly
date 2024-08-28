@@ -22,13 +22,13 @@ Une application simple de gestion de tweets construite avec React. Cette applica
 1. **Clonez le dépôt :**
 
    ```bash
-   git clone https://github.com/your-username/tweet-application.git
+   git clone https://github.com/digitaleflex/Tweetly.git
    ```
 
 2. **Accédez au répertoire du projet :**
 
    ```bash
-   cd tweet-application
+   cd Tweetly
    ```
 
 3. **Installez les dépendances :**
@@ -85,7 +85,7 @@ Les contributions sont les bienvenues ! Veuillez suivre ces étapes :
 
 ## Auteur
 
-Votre Nom - [Votre profil GitHub](https://github.com/your-username)
+Votre Nom - [Votre profil GitHub](https://github.com/digitaleflex)
 
 ## Licence
 
