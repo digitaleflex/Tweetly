@@ -85,7 +85,7 @@ Les contributions sont les bienvenues ! Veuillez suivre ces étapes :
 
 ## Auteur
 
-Votre Nom - [Votre profil GitHub](https://github.com/digitaleflex)
+Eurin  - [Eurin HASH](https://github.com/digitaleflex)
 
 ## Licence
 
